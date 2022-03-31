@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <v-app id="inspire" style="background: rgb(238, 148, 13);">
+            <v-card class="mx-auto"max-width="400px">
+                <v-img class="mig" height="500px"
+                src="https://photocentra.ru/images/main73/731174_main.jpg">
+                <v-card-title style="font-family: 'Times New Roman', Times, serif; color: white; font-weight: bold;display: flex;justify-content: center;
+                align-items: center; margin: 0 auto; border: white solid 1px;">TOP 10 AUSTRALIAN BEACHES</v-card-title>
+            </v-img>
+            <v-card-subtitle class="pb-0">
+                Meirzhan
+            </v-card-subtitle>
+            <v-card-text class="txt--primary" style="color: rgb(21, 53, 196);">
+                <div>Ata</div>
+                <div>Ata</div>
+            </v-card-text>  
+            <v-card-actions>
+                <v-btn color="blue"text style="display: flex;justify-content: center;
+                align-items: center; margin: 0 auto; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    Share
+                </v-btn>
+                <v-btn color="grey"text style="display: flex;justify-content: center;
+                align-items: center; margin: 0 auto;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    OK
+                </v-btn>
+            </v-card-actions>
+            </v-card>
+        </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+        })
+        </script>
+</body>
+</html>
